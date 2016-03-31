@@ -1,1 +1,17 @@
-{}
+{
+  "db": {
+    "name": "db",
+    "localStorage": "db",
+    "file": "$!./store.db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "loopback_getting_started",
+    "password": "9Cot3x",
+    "name": "mysqlDS",
+    "user": "loopback",
+    "connector": "mysql"
+  }
+}
