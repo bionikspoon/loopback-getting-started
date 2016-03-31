@@ -13,5 +13,14 @@
     "name": "mysqlDS",
     "user": "loopback",
     "connector": "mysql"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "loopback_getting_started",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "connector": "mongodb"
   }
 }
